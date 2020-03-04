@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(../img/pattern.jpg);
+    background-repeat: repeat;
+
+}
+
+/*----------header-----------*/
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 0;
+}
+
+header img {
+    float: left;
+
+
+}
+
+header a {
+    text-decoration: none;
+    margin: auto;
+}
+
+header li {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 17px;
+    color: blue;
+    margin: auto;
+
+}
+
+header li:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+header li:active {
+    background-color: rgb(79, 88, 80);
+    color: white;
+}
+
+/*----------section-------------*/
+section {
+    margin: 80px 10% 20px 10%;
+    width: 80%;
+    background-color: white;
+    font-family: 'Slabo 27px', serif;
+}
+
+section h1:first-child {
+    display: none;
+}
+
+#article-list article {
+
+
+    padding: 20px;
+    border-bottom: 1px solid #c4c2bb;
+    margin: 0 10px;
+}
+
+#article-list article h3 {
+    margin: 0;
+    padding: 20px 20px 20px 0;
+}
+
+#article-list article p {
+    margin: 0;
+    text-align: justify;
+}
+
+/*----footer-----*/
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1px 0;
+}
